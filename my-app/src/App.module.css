@@ -8,7 +8,7 @@
 a {
     text-decoration: none;
 }
-.App {
+/* .App {
     display: grid;
     grid-template-rows: 60px auto 50px;
     grid-template-columns: 230px 1fr;
@@ -16,4 +16,16 @@ a {
     row-gap: 0.5rem;
     text-align: center;
     height: 100vh;
+} */
+
+.App {
+    margin-top: 10px;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px +2vmin);
+    color: #282c34;
 }
